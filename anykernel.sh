@@ -16,6 +16,7 @@ device.name2=peux
 # boot shell variables
 BLOCK=boot;
 IS_SLOT_DEVICE=auto;
+NO_BLOCK_DISPLAY=1;
 
 # import functions/variables and setup patching - see for reference (DO NOT REMOVE)
 . tools/ak3-core.sh;
