@@ -13,6 +13,7 @@ do.cleanup=1
 # boot shell variables
 block=boot;
 is_slot_device=auto;
+no_block_display=1;
 
 # import functions/variables and setup patching - see for reference (DO NOT REMOVE)
 . tools/ak3-core.sh;
