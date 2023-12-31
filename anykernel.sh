@@ -25,6 +25,8 @@ NO_BLOCK_DISPLAY=1;
 # boot install
 split_boot;
 
+check_ksu;
+
 flash_boot;
 ## end boot install
 
