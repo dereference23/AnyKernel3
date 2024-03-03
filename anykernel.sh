@@ -41,6 +41,7 @@ reset_ak;
 split_boot;
 
 check_cmdline;
+check_twrp;
 
 flash_boot;
 ## end vendor_boot install

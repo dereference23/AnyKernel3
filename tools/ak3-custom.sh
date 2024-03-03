@@ -16,3 +16,10 @@ check_ksu() {
     mv -f $AKHOME/Image_KSU $AKHOME/Image;
   fi;
 }
+
+check_twrp() {
+  if [ -e $AKHOME/TWRP_LOCK ]; then
+    ui_print " " "TWRP will be disabled.";
+    sed -i '$ s/$/ ignore_builtin_recovery/' $SPLITIMG/header;
+  fi;
+}
