@@ -23,3 +23,7 @@ check_twrp() {
     sed -i '$ s/$/ ignore_builtin_recovery/' $SPLITIMG/header;
   fi;
 }
+
+erase_dtbo() {
+  dd if=/dev/zero of=/dev/block/by-name/dtbo$SLOT conv=fsync count=1 bs=$(blockdev --getsize64 /dev/block/by-name/dtbo$SLOT);
+}
