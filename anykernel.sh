@@ -42,6 +42,7 @@ split_boot;
 
 check_cmdline;
 check_twrp;
+check_vendor_hals;
 
 flash_boot;
 ## end vendor_boot install
