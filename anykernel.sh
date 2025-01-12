@@ -7,7 +7,8 @@ properties() { '
 kernel.string=e+ kernel by dereference
 do.devicecheck=1
 do.cleanup=1
-device.name1=
+device.name1=veux
+device.name2=peux
 '; } # end properties
 
 
